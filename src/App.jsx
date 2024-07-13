@@ -10,7 +10,7 @@ const App = () => {
       <Navbar/>
       <Routes>
       <Route path='/'element={<ViewMovie/>}></Route>
-      <Route path='/add'element={<AddMovie/>}></Route>
+      <Route path='/Add'element={<AddMovie/>}></Route>
      </Routes>
     </div>
   )
